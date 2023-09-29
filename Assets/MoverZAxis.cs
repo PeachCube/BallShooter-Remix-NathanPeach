@@ -13,6 +13,6 @@ public class MoverZAxis : MonoBehaviour
     }
     void Update()
     {
-        transform.position = new Vector3(transform.position.x, transform.position.y, Mathf.PingPong(Time.time * 2, maxz - minz) + minz);
+        gameObject.transform.position = new Vector3(transform.position.x, transform.position.y, Mathf.PingPong(Time.time * 2.5f, maxz - minz) + minz);
     }
 }

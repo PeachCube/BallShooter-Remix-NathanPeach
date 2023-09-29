@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rotor : MonoBehaviour
+public class Rotor2 : MonoBehaviour
 {
     void Start()
     {
-
+        
     }
 
     void Update()
     {
-        transform.Rotate(new Vector3(0, -120, 0) * Time.deltaTime);
+        transform.Rotate(new Vector3(0, 0, 90) * Time.deltaTime);
     }
 }
